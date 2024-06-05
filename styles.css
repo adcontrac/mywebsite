@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 1in;
-    padding: 0;
-    background-color: #f4f4f4;
+    margin: 1in; /* Sets a 1-inch margin around the body */
+    background-color: white; /* Background color of the body */
+    color: black; /* Text color */
 }
 
 nav {
-    background-color: #333;
-    color: white;
+    background-color: white; /* Background color of the navigation */
+    color: blue; /* Text color of the navigation */
     padding: 1em;
 }
 
@@ -22,14 +22,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: blue; /* Text color of the menu links */
     text-decoration: none;
 }
 
 h1 {
-    color: #333;
+    color: black; /* Heading color */
 }
 
 p {
-    color: #666;
+    color: black; /* Paragraph text color */
 }
+
